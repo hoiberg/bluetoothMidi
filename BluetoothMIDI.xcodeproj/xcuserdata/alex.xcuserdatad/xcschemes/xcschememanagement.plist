@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>df.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FA1016F51DD891ED00208E57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FA7897391DD605E600D41131</key>
 		<dict>
 			<key>primary</key>
