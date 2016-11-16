@@ -28,6 +28,7 @@
 		FA7897491DD605EB00D41131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA78974F1DD607ED00D41131 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FAC2953D1DDC5565001F1736 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		FAC2953F1DDC74D0001F1736 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		FA7897311DD605E500D41131 = {
 			isa = PBXGroup;
 			children = (
+				FAC2953F1DDC74D0001F1736 /* README.md */,
 				FA78973C1DD605EA00D41131 /* BluetoothMIDI */,
 				FA78973B1DD605EA00D41131 /* Products */,
 			);

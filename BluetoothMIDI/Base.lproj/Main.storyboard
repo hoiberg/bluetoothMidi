@@ -122,7 +122,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NoDestinationsCell" textLabel="yhh-bf-QUA" style="IBUITableViewCellStyleDefault" id="Sk7-Cl-4Ir">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NoDestinationCell" textLabel="yhh-bf-QUA" style="IBUITableViewCellStyleDefault" id="Sk7-Cl-4Ir">
                                 <rect key="frame" x="0.0" y="232" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sk7-Cl-4Ir" id="GIf-UF-hNF">
@@ -174,7 +174,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOX-XE-j7J">
-                                <rect key="frame" x="16" y="39" width="288" height="270"/>
+                                <rect key="frame" x="16" y="64" width="288" height="270"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="270" id="F0t-1c-zmS">
                                         <variation key="heightClass=regular-widthClass=regular" constant="199"/>
@@ -242,7 +242,9 @@ Cg
                             <constraint firstItem="cOX-XE-j7J" firstAttribute="centerX" secondItem="4Br-Oc-2L6" secondAttribute="centerX" id="5OI-58-TwU"/>
                             <constraint firstAttribute="leadingMargin" secondItem="cOX-XE-j7J" secondAttribute="leading" id="KTU-z2-K2I"/>
                             <constraint firstItem="fh4-tE-Dbl" firstAttribute="top" secondItem="w2v-Hz-oTb" secondAttribute="bottom" constant="12" id="Rgc-zA-1Ls"/>
-                            <constraint firstItem="cOX-XE-j7J" firstAttribute="top" secondItem="982-eg-Pfx" secondAttribute="bottom" constant="-25" id="bvo-vQ-Q35"/>
+                            <constraint firstItem="cOX-XE-j7J" firstAttribute="top" secondItem="982-eg-Pfx" secondAttribute="bottom" id="bvo-vQ-Q35">
+                                <variation key="heightClass=regular-widthClass=regular" constant="-25"/>
+                            </constraint>
                             <constraint firstItem="w2v-Hz-oTb" firstAttribute="centerY" secondItem="4Br-Oc-2L6" secondAttribute="centerY" multiplier="1.65" id="iqy-TF-uGf"/>
                         </constraints>
                     </view>
